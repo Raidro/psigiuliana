@@ -118,6 +118,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&amp;display=swap" rel="stylesheet">
 <style>
+@font-face{font-family:"Montserrat Fallback";src:local("Arial"),local("ArialMT"),local("Liberation Sans"),local("Arimo");ascent-override:85.79%;descent-override:22.25%;line-gap-override:0%;size-adjust:112.83%}
 html{scroll-behavior:smooth}
 body{margin:0;background:#fef8f0}
 a{color:#415d51}a:hover{color:#2f463c}
@@ -126,7 +127,7 @@ a{color:#415d51}a:hover{color:#2f463c}
 .gf-grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
 .gf-grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:56px;align-items:start}
 .gf-nav-links{display:flex;gap:32px;align-items:center}
-.gf-btn{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 28px;border-radius:999px;text-decoration:none;font-family:Montserrat,sans-serif;font-weight:500;font-size:15px;letter-spacing:.02em;box-sizing:border-box}
+.gf-btn{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 28px;border-radius:999px;text-decoration:none;font-family:Montserrat,"Montserrat Fallback",sans-serif;font-weight:500;font-size:15px;letter-spacing:.02em;box-sizing:border-box}
 .gf-btn-solid{background:#415d51;color:#fffbf5}.gf-btn-solid:hover{background:#2f463c;color:#fffbf5}
 .gf-btn-ghost{border:1px solid #415d51;color:#415d51}.gf-btn-ghost:hover{background:#ebe6e0;color:#2f463c}
 .gf-btn-light{background:#fffbf5;color:#415d51}.gf-btn-light:hover{background:#ebe6e0;color:#2f463c}
@@ -141,7 +142,7 @@ a{color:#415d51}a:hover{color:#2f463c}
 </style>
 </head>
 <body>
-<div style="font-family: Montserrat, sans-serif; color: #2f3a35; background: #fef8f0; width: 100%; overflow-x: hidden">
+<div style="font-family: Montserrat, 'Montserrat Fallback', sans-serif; color: #2f3a35; background: #fef8f0; width: 100%; overflow-x: hidden">
 
   <!-- Topo -->
   <header style="border-bottom: 1px solid #ebe6e0; background: #fef8f0">
