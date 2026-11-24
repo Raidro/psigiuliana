@@ -1,0 +1,17 @@
+# Documentação interna (não vai para o site)
+.docs/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+*:Zone.Identifier
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Arquivos temporários
+*.zip
+*.log

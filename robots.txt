@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://psigiuliana.com.br/sitemap.xml
